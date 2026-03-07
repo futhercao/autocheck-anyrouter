@@ -2,12 +2,12 @@
   // 【必填】飞书机器人 Webhook 地址
   // 示例："https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_TOKEN"
   // 安全设置：建议选择"关键词"，填写 "AnyRouter" 或 "签到" 等通知内容
-  "webhook": "",
+  "webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/c61793a3-031b-4dad-adcf-8bb42687f198",
 
   // 【可选】平台特定设置
   "platform_settings": {
     // 消息类型：card（卡片 json 1.0）| card_v2（卡片 json 2.0）| 其他（纯文本）
-    "message_type": "card",
+    "message_type": "card_v2",
 
     // 卡片颜色主题：`message_type` 为 `card` 或 `card_v2` 时生效
     // 支持静态颜色（blue/green/red/orange/purple/grey）或 stencil 动态模板
